@@ -12,7 +12,6 @@ public class BinarySearch {
     private static boolean ifExistedKey(int[] arr, int i) {
         int begin=0;
         int end =arr.length-1;
-        int s = 0 ;
         while(begin <= end){
             int m =(begin+end)/2;
             if(i < arr[m]){
